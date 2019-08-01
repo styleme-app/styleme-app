@@ -38,4 +38,16 @@ https://guides.rubyonrails.org/active_storage_overview.html
 // ♥ rails active_storage:install
 // ♥ rails db:migrate
 
+Below are my models: 
+
+User has many Posts
+User has many Stylists, through Posts
+
+Stylists
+
+Posts the join model
+I will probably need to add the avatar later - I am not sure what format it is...
+extra source: https://medium.com/@anaharris/how-to-add-image-upload-functionality-to-your-rails-app-9f7fc3f3d042
+
+
 
